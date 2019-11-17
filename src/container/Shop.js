@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import { Carousel, WingBlank } from 'antd-mobile';
 import carousel from '../image/my_shop_02.jpg';
-import { SearchBar, Button, WhiteSpace } from 'antd-mobile';
+import { SearchBar} from 'antd-mobile';
 import hey1 from '../image/my_shop_05.jpg'
 import hey2 from '../image/my_shop_07.jpg'
 import { Grid } from 'antd-mobile';
 import { Flex} from 'antd-mobile';
 import myStar from '../image/地址.png'
 import myshop_icon from '../image/购物车.png'
-import { NavBar, Icon, Tabs } from 'antd-mobile';
+import { NavBar, Tabs } from 'antd-mobile';
 const sss =[hey1,hey2]
 const data = Array.from(new Array(10)).map((_val, i) => ({
   icon: 'https://gw.alipayobjects.com/zos/rmsportal/nywPmnTAvTmLusPxHPSu.png',

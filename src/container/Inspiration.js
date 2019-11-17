@@ -1,12 +1,8 @@
 import React, { Component } from 'react'
 import { NavBar, Icon, Tabs } from 'antd-mobile';
-import { Flex, WhiteSpace } from 'antd-mobile';
+import { Flex} from 'antd-mobile';
 import myInspire from '../image/inspire_03.jpg'
 
-
-const myHolder = ({ className = '', ...restProps }) => (
-  <div className={`${className} placeholder`} {...restProps}>Block</div>
-);
 const mytab = [
     { title: '推荐' },
     { title: '冬季'},

@@ -1,15 +1,15 @@
 import React from "react";
 import { TabBar } from "antd-mobile";
+import myInspire from "../image/inspire.png";
+import mine from "../image/mine.png";
+import myStore from "../image/my_shop.png" 
+import myIndex from "../image/首页 (1).png";
 import AppHome from "./Home";
 import AppMe from "./Me";
 import shouye from "../App";
-import myInspire from "../image/inspire.png";
-import wode from "../image/mine.png";
-import shangcheng from "../image/my_shop.png" 
-import shouye1 from "../image/首页 (1).png";
 import myInspire1 from "../image/inspire (1).png";
-import wode1 from "../image/mine (1).png";
-import shangcheng1 from "../image/my_shop (1).png" 
+import mine1 from "../image/mine (1).png";
+import myStore1 from "../image/my_shop (1).png" 
 import AppInspiration from './Inspiration'
 import AppShop from './Shop'
 export default class AppTab extends React.Component {
@@ -53,7 +53,7 @@ export default class AppTab extends React.Component {
                   width: "24px",
                   height: "24px",
                   background:
-                    "url("+shouye1+") center center /  21px 21px no-repeat"
+                    "url("+myIndex+") center center /  21px 21px no-repeat"
                 }}
               />
             }
@@ -105,7 +105,7 @@ export default class AppTab extends React.Component {
                   width: "24px",
                   height: "24px",
                   background:
-                    "url("+shangcheng+") center center /  21px 21px no-repeat"
+                    "url("+myStore+") center center /  21px 21px no-repeat"
                 }}
               />
             }
@@ -115,7 +115,7 @@ export default class AppTab extends React.Component {
                   width: "24px",
                   height: "24px",
                   background:
-                    "url("+shangcheng1+") center center /  21px 21px no-repeat"
+                    "url("+myStore1+") center center /  21px 21px no-repeat"
                 }}
               />
             }
@@ -133,12 +133,12 @@ export default class AppTab extends React.Component {
           </TabBar.Item>
           <TabBar.Item
             icon={{
-              uri:wode
-              // "url("+wode+")"
+              uri:mine
+              // "url("+mine+")"
             }}
             selectedIcon={{
               uri:
-                wode1
+                mine1
             }}
             title="我的"
             key="my"
