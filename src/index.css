@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.am-flexbox-item{
+  width:100%;
+  height:110px;
+}
+
+.placeholder{
+  padding-top:30px;
+  font-size:20px;
+  text-align: center;
+  color:white;
+}
+.sth{
+  margin-top:20px;
+  margin-bottom:20px;
+  position: relative;
+}
+.home1st{
+  text-align: center;
+  padding-top:27px;
+  margin-bottom:0px;
+  background-color:#3fcccb;
+  color:white;
+  height:40px;
+  font-size:22px;
+  margin-top:0px;
+
+}
+.home2nd{
+  background: #eeeeee;
+  padding:10px 10px 10px 10px;
+}
+
+
+.changer{
+  float:left;
+  width:8px;
+  height:20px;
+  background: url('./image/my_index_14.jpg');
+  margin:0px 10px 0px 0px;
+}
+.sth span{
+  float:left;
+  font-size:18px;
+  height:25px;
+}
+
+.myhome_bottom{
+  /* position: absolute; */
+  /* bottom:0; */
+  width:100%;
+  text-align: center;
+  color:white;
+  font-size:15px;
+}
+
+
+.am-filebox-item img{
+  width:100%
+}
+.insp{
+  position: relative;
+  /* padding:5px; */
+}
+.self-pic{
+  background:url('./image/inspire_08.jpg') center center /  40px 40px no-repeat;
+  width:40px;
+  height:40px;
+  border-radius: 20px;
+  position: absolute;
+  top:-10px;
+}
+
+.myhome_bottom img{
+  /* position: relative; */
+  width:100%;
+  height:250px;
+}
+.myhome_bottom span{
+  width:100%;
+  position: relative;
+  bottom:40px;
+  z-index:100;
+}
+
+.insp span{
+  float:left;
+  padding-left:40px;
+  font-size:14px;
+  padding-top:5px;
+}
+.xin{
+  background: url('./image/心.png') center center /  22px 22px no-repeat;
+  width:26px;
+  height:23px;
+  float:right;
+}
+
+
+.search{
+  position: absolute;
+  top:-190px;
+}
+
+.myshop_icon{
+  position: absolute;
+  right:10px;
+  top:15px;
+  background: url('./image/购物车.png')  center center /  33px 33px no-repeat;
+  width:33px;
+  height:33px;
+  float:right;
+}
